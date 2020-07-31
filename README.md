@@ -5,11 +5,11 @@ Minimal Image Library for Computer Vision - Lowpass filter methods example for N
 <img src="https://user-images.githubusercontent.com/49571967/89087769-4df56a00-d38d-11ea-8b47-bfd9594d82e8.jpg" width="45%"></img> 
 
 ## Usage
-* Open Linux terminal, navigate to the application folder and run ./lowpass \[inputname] \[outputname] \[lowpass_filter] \[kernel]
+* Open Linux terminal, navigate to the application folder and run ./lowpass \[inputname] \[outputname] \[lowpass_filter] \[kernel_size]
     * \[inputname] Is the origin Netpbm image name and extension. Must be in the same folder as the executable.
     * \[outputname] Is the destination Netpbm image name and extension. For a correct use, save the image with the .pgm extension.
     * \[lowpass_filter] The lowpass filter method, must be \"gaussian\", \"mean\" or \"median\".
-    * \[kernel] Any odd number. Only for mean and median methods. Default value = 5.
+    * \[kernel_size] Must be an odd number. Only for mean and median methods. Default value = 5.
     
 ## Compilation
 * Compile via Linux make command
