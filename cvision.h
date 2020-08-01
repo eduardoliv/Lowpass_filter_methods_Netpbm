@@ -84,31 +84,6 @@ int vc_gray_lowpass_median_filter(IVC *src, IVC *dst, const int kernelsize);
 int vc_rgb_to_gray(IVC *src, IVC *dst);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// Image Decomposition
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-/**
- * @summary: Decomposition of the red component of a rgb scale image to gray
- * @srcdst: Receives the souce/destination image pointer
- * @return true if the operation succeeds, false if not
-*/
-int vc_rgb_get_red_gray(IVC *srcdst);
-
-/**
- * @summary: Decomposition of the green component of a rgb scale image to gray
- * @srcdst: Receives the souce/destination image pointer
- * @return true if the operation succeeds, false if not
-*/
-int vc_rgb_get_green_gray(IVC *srcdst);
-
-/**
- * @summary: Decomposition of the blue component of a rgb scale image to gray
- * @srcdst: Receives the souce/destination image pointer
- * @return true if the operation succeeds, false if not
-*/
-int vc_rgb_get_blue_gray(IVC *srcdst);
-
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Image Memory Alloc & Free
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
